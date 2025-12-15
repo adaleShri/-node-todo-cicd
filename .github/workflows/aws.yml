@@ -31,7 +31,7 @@ on:
     branches: [ "main" ]
 
 env:
-  AWS_REGION: ap-south-1
+  AWS_REGION: my_aws_region
   ECR_REPOSITORY: node-todo
   ECS_SERVICE: node-todo-service
   ECS_CLUSTER: node-todo-cluster
